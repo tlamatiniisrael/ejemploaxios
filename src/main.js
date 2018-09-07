@@ -7,11 +7,11 @@ import VueFusionCharts from 'vue-fusioncharts'
 // import FusionCharts modules and resolve dependency
 import FusionCharts from 'fusioncharts/core'
 import Pie2D from 'fusioncharts/viz/pie2d'
-// import Column2D from 'fusioncharts/viz/column2d'
+import Column2D from 'fusioncharts/viz/column2d'
 
 Vue.config.productionTip = false
 // register VueFusionCharts component
-Vue.use(VueFusionCharts, FusionCharts, Pie2D)
+Vue.use(VueFusionCharts, FusionCharts, Pie2D, Column2D)
 
 /* eslint-disable no-new */
 new Vue({
